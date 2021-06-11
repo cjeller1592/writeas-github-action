@@ -6,3 +6,7 @@ I'd like to see if I can publish to Write.as using [Github Actions](https://gith
 ### I make a commit
 
 _And it's published!_
+
+Isn't that *neat*?
+
+# I think so...

@@ -1,10 +1,8 @@
 # Testing out Github Actions
-Let's see if this works at all. I don't know if it will, but we'll see. I'm hoping that it will get this line too.
+I'd like to see if I can publish to Write.as using [Github Actions](https://github.com/features/actions). I am using [this repo](https://github.com/cjeller1592/writeas-github-action) to do it. The magic is in the containers in the cloud that do all of the CI/CD magic. It seems _really_ cool.
 
-Let's see what happens? It could be pretty fun.
+## I'm writing this in Visual Studio Code
 
-Maybe...
+### I make a commit
 
-_Who knows_?
-
-## I hope this will pick up
+_And it's published!_

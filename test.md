@@ -1,12 +1,6 @@
 # Testing out Github Actions
-I'd like to see if I can publish to Write.as using [Github Actions](https://github.com/features/actions). I am using [this repo](https://github.com/cjeller1592/writeas-github-action) to do it. The magic is in the containers in the cloud that do all of the CI/CD magic. It seems _really_ cool.
+What's cool about Github is that it has built-in Continuous Integration & Deployment (CI/CD) with this feature called [Github Actions](https://github.com/features/actions). On an event like a commit to your Github repo, it'll run the CI/CD jobs that you write out on a...runner. These runners convert your job into a container that executes the code you've set up on there. Practical benefits galore — run scans on your code, deploy a project to Github pages, the possibilities are endless. 
 
-## I'm writing this in Visual Studio Code
+What I wanted to try was to see whether I could create a Github Action that would publish to my blog. This blog post is a  that. I am using [this repo](https://github.com/cjeller1592/writeas-github-action) to do it — a Python script that takes the content of a Markdown file and updates a Write.as post that gets published to my blog via a scheduled publishing program. When I make a commit to the Markdown file, the code in the Python script will execute on the runner, updating the post. You get the added granularity of version control for a piece of writing with the automated publishing via CI/CD. Plus you don't have to open a web browser to publish on the web this way — just edit a Markdown file, perform some git incantations, and you're off to the races!
 
-### I make a commit
-
-_And it's published!_
-
-Isn't that *neat*?
-
-# I think so...
+This is merely a test though, a bit of a Rube Goldberg machine, but isn't that part of the fun? To tinker around because you can? Take hobbyist software kludging with a sense of pride. At least I try to (on a good day).
